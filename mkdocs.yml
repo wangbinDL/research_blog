@@ -66,6 +66,7 @@ plugins:
       separator: '[\s\-,:!=\[\]()"`/]+|\.(?!\d)|&[lg]t;|(?!\b)(?=[A-Z][a-z])'
   - minify:
       minify_html: true
+  - mkdocs-jupyter 
 
 # Customization
 # extra:
@@ -129,3 +130,8 @@ nav:
   - 算法研究:
     - NeRF学习教程(1): research/nerf_tutorial/nerf_001_overview.md
     - NeRF学习教程(2): research/nerf_tutorial/nerf_001_overview.md
+  - 论文阅读:
+    - Transformer系列-ViT: research/paper_reading/001_vit.md
+
+  - 编程能力:
+    - Python魔法方法: coding/python/magic_method.ipynb
